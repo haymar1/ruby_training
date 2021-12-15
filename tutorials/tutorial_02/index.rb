@@ -18,5 +18,5 @@ for i in (row - 1).downto(0)
 			print " "
 		end 
 	end
-		puts "/n"
+		puts
 	end
