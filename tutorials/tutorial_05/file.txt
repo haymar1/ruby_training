@@ -1,0 +1,2 @@
+
+Show Contents by reading file from dirrectory.

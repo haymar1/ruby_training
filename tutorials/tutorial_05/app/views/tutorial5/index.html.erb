@@ -1,0 +1,5 @@
+<div> 
+ <%= form_for :content, url: uploadfile_path do |f| %>
+  <%= f.file_field :file %> <br><br><br> 
+  <%= f.submit 'Upload File' %>  
+<% end %>
