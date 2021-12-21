@@ -1,0 +1,7 @@
+<h1>Select Your Age</h1> 
+<div> 
+ <%= form_for :date, url: date_display_path do |f| %>
+  <%= f.date_field :dob %> <br><br><br> 
+  <%= f.submit %>  
+<% end %>
+</div>
