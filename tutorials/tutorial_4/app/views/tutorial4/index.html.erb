@@ -1,6 +1,8 @@
-<h1>Select Your Age</h1>  
- <%= form_for :userinfo, url: index_login_path do |f| %>
+<h1>Login Form</h1>
+<div>
+ <%= form_for :userinfo, url: login_path do |f| %>
   User Name: <%= f.text_field :name %><br><br><br>
-  Password:<%= f.text_field :password %> <br><br><br>
+  Password:<%= f.password_field :password %> <br><br><br>
   <%= f.submit 'Login' %>  
 <% end %>
+</div>

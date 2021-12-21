@@ -1,1 +1,6 @@
-Welcome:<%= @name%>
+<h1>Login Successfully</h1>
+<div>
+<%= form_for :userinfo, url: logout_path do |f| %>
+  <%= f.submit 'Logout' %>  
+<% end %>
+</div>
