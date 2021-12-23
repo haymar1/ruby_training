@@ -65,7 +65,7 @@ class PostsController < ApplicationController
 
 
     def post_params
-      params.fetch(:post, {})
-      #params.fetch(:post, {}).permit(:title, :desciption, :public_flag, :created_at, :updated_at, :user_name )
+     
+      params.require(:post).permit(:title, :description, :public_flag, :user_name )
     end
 end
