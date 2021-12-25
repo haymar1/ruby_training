@@ -1,0 +1,20 @@
+ <div class="container">
+ <%= form_for :upload, url: upload_path do |f| %>
+
+<p><%= f.label :image %>
+<%= f.file_field :image, accept: 'image/png, image/jpg, image/jpeg', required: true %></p>
+
+<p><%= f.label :folder%>
+<%= f.text_field :folder, placeholder: "Enter File Path",  required: true %>
+</p>
+<div class="submit">
+  <%= f.submit 'Save Image' %>  
+  </div>
+<% end %>
+</div>
+
+
+
+
+
+
