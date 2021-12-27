@@ -1,0 +1,4 @@
+<img src='data:image/png;base64,<%= @result %>'>
+<%= form_for :upload, url: download_path do |f| %>
+  <%= f.submit "Download" %>  
+<% end %>
