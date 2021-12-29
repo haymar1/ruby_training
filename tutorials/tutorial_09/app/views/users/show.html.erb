@@ -1,0 +1,58 @@
+<p id="notice"><%= notice %></p>
+<p><%= @user.name %></p>
+<p><%= @user.email %></p>
+<p><%= @user.password %></p>
+<p><%= @user.super_user_flag %></p>
+<p><%= @user.phone %></p>
+<p><%= @user.address %></p>
+<p><%= @user.birthday %></p>
+<br>
+<%= link_to "Edit", edit_user_path(@user) %> |
+<%= link_to "Back", users_path %>
+<h2>Posts</h2>
+<% @user.posts.each do |post| %>
+  <p>
+    <strong>Title:</strong>
+    <%= post.title %>
+  </p>
+  <p>
+    <strong>Description:</strong>
+    <%= post.description %>
+  </p>
+  <p>
+    <strong>Public_Flag:</strong>
+    <%= post.public_flag %>
+  </p>
+  <p>
+    <strong>User ID:</strong>
+    <%= post.user_id %>
+  </p>
+  <p>
+    <%= link_to "Destroy Post", [post.user, post],
+                method: :delete,
+                data: { confirm: "Are you sure?" } %>
+  </p>
+  <%= link_to "Edit", "/users/#{post.user_id}/posts/#{post.id}/edit" %>
+<% end %>
+<h2>Add a post:</h2>
+<%= form_for ([@user, @user.posts.build]) do |f| %>
+  <p>
+    <%= f.label :title, "Title:" %> &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 
+    <%= f.text_field :title, class: "form-control" %>
+  </p>
+  <p>
+    <%= f.label :description, "Description:" %>
+    <%= f.text_area :description, class: "form-control" %>
+  </p>
+  <p>
+    <%= f.label :public_flag, "Public Flag:" %>
+    <%= f.radio_button :public_flag, class: "form-control" %>
+  </p>
+  <p>
+    <%= f.label :user_id, "User ID:" %> &nbsp; &nbsp;  &nbsp;
+    <%= f.text_field :user_id, class: "form-control" %>
+  </p>
+  <%= f.submit %>
+  <br>
+  <%= link_to "Back", users_path %>
+<% end %>

@@ -1,0 +1,814 @@
+Started GET "/index" for ::1 at 2021-12-25 21:48:15 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 115ms (Views: 111.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-25 21:48:17 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 99ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for ::1 at 2021-12-25 21:48:35 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e32c45a18 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-rsugf8.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+Completed 500 Internal Server Error in 315ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `public' for #<Tutorial6Controller:0x0000024e32c460f8>
+Did you mean?  public_send):
+  
+app/controllers/tutorial6_controller.rb:16:in `create'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (10.7ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (54.7ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (420.4ms)
+Started POST "/upload" for ::1 at 2021-12-25 21:49:21 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e33596d88 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-99nryo.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/tutorial6_controller.rb:17:in `exist?'
+app/controllers/tutorial6_controller.rb:17:in `create'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.3ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (94.4ms)
+Started POST "/upload" for ::1 at 2021-12-25 21:49:44 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e34c98f40 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-1j70lk.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::EEXIST (File exists @ dir_s_mkdir - /@upload_folder):
+  
+app/controllers/tutorial6_controller.rb:16:in `mkdir'
+app/controllers/tutorial6_controller.rb:16:in `create'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.8ms)
+Started POST "/upload" for ::1 at 2021-12-25 21:50:17 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e32c3f4b0 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-1uoi40d.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::EEXIST (File exists @ dir_s_mkdir - /@upload_folder):
+  
+app/controllers/tutorial6_controller.rb:16:in `mkdir'
+app/controllers/tutorial6_controller.rb:16:in `create'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.2ms)
+Started POST "/upload" for ::1 at 2021-12-25 21:51:03 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e34fdde08 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-1h15hxc.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+  Rendering tutorial6/create.html.erb within layouts/application
+  Rendered tutorial6/create.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 101ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for ::1 at 2021-12-25 21:54:48 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e33292a10 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-i9or61.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+  Rendering tutorial6/create.html.erb within layouts/application
+  Rendered tutorial6/create.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 93ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/@images" for ::1 at 2021-12-25 21:54:49 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/images/@images"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.4ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (114.6ms)
+Started GET "/favicon.ico" for ::1 at 2021-12-25 22:16:33 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.8ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (95.0ms)
+Started POST "/upload" for ::1 at 2021-12-25 22:16:35 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e34f63c48 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-elriq9.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+  Rendering tutorial6/create.html.erb within layouts/application
+  Rendered tutorial6/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 83ms (Views: 72.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for ::1 at 2021-12-25 22:19:59 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e3197e308 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-qgelkn.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+  Rendering tutorial6/create.html.erb within layouts/application
+  Rendered tutorial6/create.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 70ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for ::1 at 2021-12-25 22:21:02 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e34715438 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-1xbip7q.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+  Rendering tutorial6/create.html.erb within layouts/application
+  Rendered tutorial6/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 83ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for ::1 at 2021-12-25 22:21:58 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e34b550e8 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-174e3q3.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+  Rendering tutorial6/create.html.erb within layouts/application
+  Rendered tutorial6/create.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 207ms (Views: 103.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for ::1 at 2021-12-25 22:24:39 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e35138d70 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-9snde6.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/tutorial6_controller.rb:16:in `mkdir'
+app/controllers/tutorial6_controller.rb:16:in `create'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (75.7ms)
+Started POST "/upload" for ::1 at 2021-12-25 22:25:23 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e349ee948 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-rvt1t4.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/tutorial6_controller.rb:16:in `mkdir'
+app/controllers/tutorial6_controller.rb:16:in `create'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (87.5ms)
+Started POST "/upload" for ::1 at 2021-12-25 22:25:25 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e32a9d350 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-ex3yxf.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/tutorial6_controller.rb:16:in `mkdir'
+app/controllers/tutorial6_controller.rb:16:in `create'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (75.1ms)
+Started POST "/upload" for ::1 at 2021-12-25 22:25:26 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e34b6deb8 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-qo7nh0.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/tutorial6_controller.rb:16:in `mkdir'
+app/controllers/tutorial6_controller.rb:16:in `create'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.0ms)
+Started POST "/upload" for ::1 at 2021-12-25 22:26:59 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e331db068 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-17n2h6d.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ENOENT (No such file or directory @ dir_s_mkdir - public/last_folder):
+  
+app/controllers/tutorial6_controller.rb:16:in `mkdir'
+app/controllers/tutorial6_controller.rb:16:in `create'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (75.3ms)
+Started POST "/upload" for ::1 at 2021-12-25 22:27:01 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e34dd9ad0 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-128kw2z.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ENOENT (No such file or directory @ dir_s_mkdir - public/last_folder):
+  
+app/controllers/tutorial6_controller.rb:16:in `mkdir'
+app/controllers/tutorial6_controller.rb:16:in `create'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (75.6ms)
+Started POST "/upload" for ::1 at 2021-12-25 22:30:29 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e346fc6b8 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-177iicf.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+  Rendering tutorial6/create.html.erb within layouts/application
+  Rendered tutorial6/create.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 65ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for ::1 at 2021-12-25 22:31:02 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e34b65a10 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-1ws02nh.jpg>, @original_filename="images (3).jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"images (3).jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::EEXIST (File exists @ dir_s_mkdir - public/last_folder):
+  
+app/controllers/tutorial6_controller.rb:16:in `mkdir'
+app/controllers/tutorial6_controller.rb:16:in `create'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.2ms)
+Started POST "/upload" for ::1 at 2021-12-25 22:33:18 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20jka7XFHxCt8Tw9qCbdi05CAl4LtYUMGhDpuLEA2Ld8++qGqe+7nysa3XWt/fGHiZHo+Waxtk+F27Bc06ZcWw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e3382a6a8 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-2wh798.jpg>, @original_filename="images (3).jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"images (3).jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::EEXIST (File exists @ dir_s_mkdir - public/last_folder):
+  
+app/controllers/tutorial6_controller.rb:16:in `mkdir'
+app/controllers/tutorial6_controller.rb:16:in `create'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (82.6ms)
+Started GET "/" for ::1 at 2021-12-25 22:33:29 +0630
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb (4.9ms)
+Completed 200 OK in 133ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/last_folder" for ::1 at 2021-12-25 22:33:55 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/last_folder"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.7ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (94.9ms)
+Started GET "/index" for ::1 at 2021-12-25 22:35:38 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 78ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for ::1 at 2021-12-25 22:35:48 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/BmXRM+NFlNSlJgSn0963U1a64iwguDVdlcSfDjc5Olbqpmp06ey3NR/eVqalFbRiokBL92G05bpnEuYWnpgBQ==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e3476e060 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-6sklw0.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"last_folder"}, "commit"=>"Save Image"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::EEXIST (File exists @ dir_s_mkdir - public/last_folder):
+  
+app/controllers/tutorial6_controller.rb:16:in `mkdir'
+app/controllers/tutorial6_controller.rb:16:in `create'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.4ms)
+Started POST "/upload" for ::1 at 2021-12-25 22:36:53 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/BmXRM+NFlNSlJgSn0963U1a64iwguDVdlcSfDjc5Olbqpmp06ey3NR/eVqalFbRiokBL92G05bpnEuYWnpgBQ==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e35170f90 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-ahq34q.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"folder"}, "commit"=>"Save Image"}
+  Rendering tutorial6/create.html.erb within layouts/application
+  Rendered tutorial6/create.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 106ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for ::1 at 2021-12-25 22:43:04 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/BmXRM+NFlNSlJgSn0963U1a64iwguDVdlcSfDjc5Olbqpmp06ey3NR/eVqalFbRiokBL92G05bpnEuYWnpgBQ==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e346ad6a8 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-14wuj2b.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"folder"}, "commit"=>"Save Image"}
+  Rendering tutorial6/create.html.erb within layouts/application
+  Rendered tutorial6/create.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 71ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for ::1 at 2021-12-25 22:47:45 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/BmXRM+NFlNSlJgSn0963U1a64iwguDVdlcSfDjc5Olbqpmp06ey3NR/eVqalFbRiokBL92G05bpnEuYWnpgBQ==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e34b2c378 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-t9g0r.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"folder"}, "commit"=>"Save Image"}
+  Rendering tutorial6/create.html.erb within layouts/application
+  Rendered tutorial6/create.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 60ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-25 23:04:01 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 227ms (Views: 224.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-25 23:04:51 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 106ms (Views: 101.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-25 23:04:53 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-25 23:05:23 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 107ms (Views: 105.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-25 23:05:38 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 83ms (Views: 81.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-25 23:06:44 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (E:/OJT/Ruby/RUBY_TRAINING/tutorials/tutorial_06/app/views/tutorial6/index.html.erb:10: syntax error, unexpected class, expecting ')'
+...d=( f.submit 'Save Image' class:submit);@output_buffer.safe_...
+...                          ^~~~~
+E:/OJT/Ruby/RUBY_TRAINING/tutorials/tutorial_06/app/views/tutorial6/index.html.erb:10: syntax error, unexpected ')', expecting '.' or &. or :: or '['
+...bmit 'Save Image' class:submit);@output_buffer.safe_append='...
+...                              ^
+E:/OJT/Ruby/RUBY_TRAINING/tutorials/tutorial_06/app/views/tutorial6/index.html.erb:11: syntax error, unexpected end, expecting ')'
+'.freeze; end 
+          ^~~
+E:/OJT/Ruby/RUBY_TRAINING/tutorials/tutorial_06/app/views/tutorial6/index.html.erb:21: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+E:/OJT/Ruby/RUBY_TRAINING/tutorials/tutorial_06/app/views/tutorial6/index.html.erb:23: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/tutorial6/index.html.erb:10: syntax error, unexpected class, expecting ')'
+app/views/tutorial6/index.html.erb:10: syntax error, unexpected ')', expecting '.' or &. or :: or '['
+app/views/tutorial6/index.html.erb:11: syntax error, unexpected end, expecting ')'
+app/views/tutorial6/index.html.erb:21: syntax error, unexpected ensure, expecting ')'
+app/views/tutorial6/index.html.erb:23: syntax error, unexpected end, expecting ')'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.9ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.5ms)
+Started GET "/index" for ::1 at 2021-12-25 23:09:09 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 115ms (Views: 113.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-25 23:09:11 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 55ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-25 23:09:34 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 118ms (Views: 116.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-25 23:09:36 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 64ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-25 23:09:37 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 63ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-25 23:10:20 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 168ms (Views: 166.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-25 23:10:38 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 123ms (Views: 120.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-25 23:11:18 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 115ms (Views: 113.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for ::1 at 2021-12-25 23:11:56 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WqeD0yOC1JuhX+hqSjVaPLxJSVHwV9Rn36e9qAGaUIT9FI0+P6hwFCe0CSJP7nYwe5qj9p1T5yRAbORMYzzUaA==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e32c36450 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-1gqz2f7.jpg>, @original_filename="images (1).jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"images (1).jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"luckyfolder"}, "commit"=>"Save Image"}
+  Rendering tutorial6/create.html.erb within layouts/application
+  Rendered tutorial6/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 59ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for ::1 at 2021-12-25 23:12:23 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WqeD0yOC1JuhX+hqSjVaPLxJSVHwV9Rn36e9qAGaUIT9FI0+P6hwFCe0CSJP7nYwe5qj9p1T5yRAbORMYzzUaA==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e34aa7dd0 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-4ojdz6.jpg>, @original_filename="images (1).jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"images (1).jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"folder"}, "commit"=>"Save Image"}
+  Rendering tutorial6/create.html.erb within layouts/application
+  Rendered tutorial6/create.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 82ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for ::1 at 2021-12-25 23:12:39 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WqeD0yOC1JuhX+hqSjVaPLxJSVHwV9Rn36e9qAGaUIT9FI0+P6hwFCe0CSJP7nYwe5qj9p1T5yRAbORMYzzUaA==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000024e35015268 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-8276-1yg8w5q.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"folder"}, "commit"=>"Save Image"}
+  Rendering tutorial6/create.html.erb within layouts/application
+  Rendered tutorial6/create.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 72ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-25 23:33:57 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+Started GET "/index" for ::1 at 2021-12-25 23:34:00 +0630
+  Rendered tutorial6/index.html.erb within layouts/application (437.7ms)
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 1653ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Permission denied @ rb_file_s_rename - (E:/OJT/Ruby/RUBY_TRAINING/tutorials/tutorial_06/tmp/cache/assets/sprockets/v3.0/5h/5huf6d2c4ZYJmlcI8jaY9yC1wS6obgUGRT1UgjVzIBU.cache.1331243458440.12772.391298, E:/OJT/Ruby/RUBY_TRAINING/tutorials/tutorial_06/tmp/cache/assets/sprockets/v3.0/5h/5huf6d2c4ZYJmlcI8jaY9yC1wS6obgUGRT1UgjVzIBU.cache)):
+    4:     <title>Tutorial06</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__929195253_1331239714700'
+Completed 200 OK in 1309ms (Views: 1248.2ms | ActiveRecord: 0.0ms)
+
+
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (12.6ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (277.5ms)
+Started POST "/upload" for ::1 at 2021-12-25 23:34:25 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UrlqVKWWhF2rwGr7uRxWTf/ceklB5RkR8o8XJYfg8MigEq9JRGVWsVpX3TV3dMLibH+NPkooNlqlQ6PsKwRKiw==", "person"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000026bec0cbe58 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-12772-1tp2emh.jpg>, @original_filename="images (1).jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"person[image]\"; filename=\"images (1).jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"luckyfolder"}, "commit"=>"Save Image"}
+  Rendering tutorial6/create.html.erb within layouts/application
+  Rendered tutorial6/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 82ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-25 23:35:07 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 82ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for ::1 at 2021-12-25 23:35:33 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Au1+Ga/3eEaUaZH2V10o0hN/rXQHN7qcwPkM1atl+LfwRrsETgSqqmX+JjiZNbx9gNxaAwz6ldeXNbgcB4FC9A==", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000026beb2ccca8 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-12772-1dkj1nh.jpg>, @original_filename="images (1).jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"images (1).jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"gg"}, "commit"=>"Save Image"}
+  Rendering tutorial6/create.html.erb within layouts/application
+  Rendered tutorial6/create.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 96ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for ::1 at 2021-12-25 23:39:09 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/upload"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (54.1ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (22.3ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (228.6ms)
+Started GET "/index" for ::1 at 2021-12-25 23:39:16 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 56ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for ::1 at 2021-12-25 23:39:21 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T7nmsfGTk8Xs54LcymOpRm+tSFMQesh21ko2waFA1ii9EiOsEGBBKR1wNRIECz3p/A6/JBu35z2BhoIIDaRsaw==", "upload"=>{"folder"=>""}, "commit"=>"Save Image"}
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  
+app/controllers/tutorial6_controller.rb:7:in `create'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (45.4ms)
+Started POST "/upload" for ::1 at 2021-12-25 23:42:49 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T7nmsfGTk8Xs54LcymOpRm+tSFMQesh21ko2waFA1ii9EiOsEGBBKR1wNRIECz3p/A6/JBu35z2BhoIIDaRsaw==", "upload"=>{"folder"=>""}, "commit"=>"Save Image"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  
+app/controllers/tutorial6_controller.rb:7:in `create'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (45.6ms)
+Started POST "/upload" for ::1 at 2021-12-25 23:43:08 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T7nmsfGTk8Xs54LcymOpRm+tSFMQesh21ko2waFA1ii9EiOsEGBBKR1wNRIECz3p/A6/JBu35z2BhoIIDaRsaw==", "upload"=>{"folder"=>""}, "commit"=>"Save Image"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  
+app/controllers/tutorial6_controller.rb:7:in `create'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (47.4ms)
+Started POST "/upload" for ::1 at 2021-12-25 23:43:33 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T7nmsfGTk8Xs54LcymOpRm+tSFMQesh21ko2waFA1ii9EiOsEGBBKR1wNRIECz3p/A6/JBu35z2BhoIIDaRsaw==", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000026bec192030 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-12772-13e3fkp.jpg>, @original_filename="images (1).jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"images (1).jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"gg"}, "commit"=>"Save Image"}
+  Rendering tutorial6/create.html.erb within layouts/application
+  Rendered tutorial6/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 46ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-25 23:46:48 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 47ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-25 23:48:12 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 83ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for ::1 at 2021-12-25 23:48:26 +0630
+Processing by Tutorial6Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gNTq2LtUgdNsb7wQQuvJoiru7t+UAhfaQGipp2qb73SlUtJYDVI58rN5qIRm6DGHYKvwfObNfX7Khhk+22LxVA==", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000026be92a0330 @tempfile=#<Tempfile:C:/Users/user/AppData/Local/Temp/RackMultipart20211225-12772-xttu0y.jpg>, @original_filename="download.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"download.jpg\"\r\nContent-Type: image/jpeg\r\n">, "folder"=>"folder"}, "commit"=>"Save Image"}
+  Rendering tutorial6/create.html.erb within layouts/application
+  Rendered tutorial6/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 51ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-26 00:12:40 +0630
+Processing by Tutorial6Controller#index as HTML
+  Rendering tutorial6/index.html.erb within layouts/application
+  Rendered tutorial6/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 78ms (Views: 75.3ms | ActiveRecord: 0.0ms)
+
+

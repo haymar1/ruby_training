@@ -1,0 +1,43 @@
+<%= form_for(user) do |f| %>
+  <% if user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+      <ul>
+        <% user.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <p>
+    <%= f.label :name, "Name:" %> &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp; 
+    <%= f.text_field :name, class: "form-control" %>
+  </p>
+  <p>
+    <%= f.label :email, "Email:" %> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <%= f.text_field :email, class: "form-control" %>
+  </p>
+  <p>
+    <%= f.label :password, "Password:" %> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <%= f.password_field :password, class: "form-control" %>
+  </p>
+  <p>
+    <%= f.label :super_user_flag, "Super User Flag:" %>
+    <%= f.text_field :super_user_flag, class: "form-control" %>
+  </p>
+  <p>
+    <%= f.label :phone, "Phone:" %> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <%= f.text_field :phone, class: "form-control" %>
+  </p>
+  <p>
+    <%= f.label :address, "Address:" %> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <%= f.password_field :address, class: "form-control" %>
+  </p>
+  <p>
+    <%= f.label :birthday, "Birthday:" %>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <%= f.text_field :birthday, class: "form-control" %>
+  </p>
+  <div class="submit">
+    <%= f.submit %>
+  </div>
+<% end %>
