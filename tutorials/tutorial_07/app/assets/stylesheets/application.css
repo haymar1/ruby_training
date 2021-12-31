@@ -13,16 +13,41 @@
  *= require_tree .
  *= require_self
  */
- .container{
-     width:300px;
-     margin: 0 auto;
-     height: 150px;
-     border: 1px solid #000000;
- }
-label, input{
-   margin-top: 20px;
-    
+.container {
+    width: 600px;
+    margin: 200px 400px;
+    border: 1px solid #000000;
+    background-color: rgb(185, 142, 111);
+    color: #ffffff;
 }
-.submit{
-    margin-left: 80px;
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"i] {
+    margin-left: 150px;
+    width: 270px;
+    margin-bottom: 15px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.test,
+.test1 {
+    background: rgb(133, 122, 122);
+    color: #ffffff;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-size: italic;
+}
+
+.test1 {
+    margin-left: 100px;
 }

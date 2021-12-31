@@ -1,6 +1,7 @@
+require "rqrcode"
+
 class Tutorial7Controller < ApplicationController
   def generate
-    require "rqrcode"
     input_param = (params[:generate])[:id]
     qrcode = RQRCode::QRCode.new(input_param)
     @png = qrcode.as_png(
@@ -13,7 +14,7 @@ class Tutorial7Controller < ApplicationController
       module_px_size: 6,
       resize_exactly_to: false,
       resize_gte_to: false,
-      size: 100,
+      size: 300,
     )
     @result = Base64.encode64(@png.to_s)
   end
