@@ -10,9 +10,10 @@
       </ul>
     </div>
   <% end %>
-<%= f.text_field :title, class: "form-control", placeholder: "Title"%><br><br>
+<%= f.text_field :title, class: "form-control", placeholder: "Title" %><br><br>
 <%= f.text_field :description, class: "form-control", placeholder: "Description"%><br><br>
-<%= f.text_field :public_flag, class: "form-control", placeholder: "Public_Flag"%><br><br>
+  <%= f.label "Public_Flag"  %>
+<%= f.radio_button :public_flag, class: "form-control", placeholder: "Public_Flag"%><br><br>
 <%= f.text_field :user_name, class: "form-control", placeholder: "User Name"%><br><br>
   <div class="actions">
     <%= f.submit %>
