@@ -1,0 +1,3016 @@
+Started GET "/" for ::1 at 2021-12-31 17:52:32 +0630
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb (90.9ms)
+Completed 200 OK in 567ms (Views: 323.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 17:53:00 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (772.5ms)
+Started GET "/index" for ::1 at 2021-12-31 17:53:05 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 5954ms (Views: 5935.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1038ms (Views: 1032.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/save" for ::1 at 2021-12-31 17:53:20 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CM50TJONZg/kL+XKbqDpvMwsRenz9bvbphKJvsauosGeqAOgZooiMGz7KE8BqVV+3Zmx9CeiL+TWxvKoLthTvg==", "generate"=>{"id"=>"12345"}, "commit"=>"Save"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 346ms (Views: 174.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 17:58:48 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 110ms (Views: 105.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 17:59:23 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 95ms (Views: 90.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:00:14 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 68ms (Views: 64.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:00:15 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 66ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:00:16 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 67ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:00:42 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 102ms (Views: 98.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:00:44 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 85ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:01:14 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 104ms (Views: 100.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:01:16 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 103ms (Views: 99.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:01:16 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 76ms (Views: 71.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:01:17 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 77ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:01:17 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 74ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:01:17 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 92ms (Views: 87.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:01:17 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 82ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:01:18 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 77ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:01:18 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 77ms (Views: 73.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:02:25 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 101ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:02:27 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 74ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:02:28 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 87ms (Views: 84.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:02:29 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 71ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:02:30 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 83ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:05:48 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 94ms (Views: 91.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:05:49 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 71ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:05:50 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 76ms (Views: 72.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:05:50 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 90ms (Views: 86.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:05:51 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 67ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:06:37 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 120ms (Views: 116.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:06:38 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 76ms (Views: 71.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:06:38 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 86ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:06:39 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 79ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:06:39 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 83ms (Views: 78.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:06:40 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 78ms (Views: 73.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:06:40 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 69ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:06:41 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 76ms (Views: 72.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:06:41 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 75ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:06:41 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 68ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:06:42 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 88ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:06:42 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 70ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:06:42 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 73ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:08:17 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 90ms (Views: 87.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:08:18 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 73ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:08:19 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 71ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:08:19 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 84ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:08:19 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 72ms (Views: 67.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:08:20 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 69ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:09:03 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 144ms (Views: 139.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:09:04 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 71ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:09:05 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 86ms (Views: 83.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:09:05 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 83ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:09:05 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 73ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:09:06 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 71ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:09:06 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 67ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:09:27 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 92ms (Views: 87.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:09:29 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 86ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:09:29 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 93ms (Views: 89.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:09:29 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 74ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:09:30 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 69ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:09:30 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 68ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:09:53 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 103ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:09:54 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 61ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:09:55 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 91ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:09:55 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 69ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:10:18 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 109ms (Views: 105.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:10:19 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 69ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:10:20 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 76ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:10:20 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 73ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:10:20 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 83ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:10:21 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 81ms (Views: 76.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:10:21 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 73ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:10:22 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 75ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:10:22 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 74ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:10:22 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 76ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:12:09 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 93ms (Views: 89.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:12:10 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 62ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:12:11 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 68ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:12:57 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 97ms (Views: 94.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:12:58 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 70ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:12:59 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 67ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:12:59 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 89ms (Views: 86.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:15:44 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 174ms (Views: 169.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:15:45 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 67ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:15:45 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 77ms (Views: 74.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:15:46 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 66ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:15:46 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 97ms (Views: 95.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:15:46 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 72ms (Views: 68.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:16:03 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 105ms (Views: 101.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:16:05 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 70ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:16:05 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 58ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:17:13 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 105ms (Views: 101.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:17:15 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 80ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:17:15 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 72ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:17:51 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 111ms (Views: 108.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:17:52 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 71ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:17:52 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 75ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:17:52 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 70ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:17:52 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 92ms (Views: 87.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:17:53 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 76ms (Views: 72.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:17:53 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 81ms (Views: 78.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:18:36 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 139ms (Views: 135.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:18:37 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 98ms (Views: 95.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:18:37 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 129ms (Views: 124.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:18:38 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 79ms (Views: 75.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:18:38 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 72ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:18:39 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 109ms (Views: 106.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:18:39 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 81ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:19:13 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 96ms (Views: 91.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:19:14 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 93ms (Views: 89.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:19:14 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 77ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:19:15 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 74ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:19:49 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 139ms (Views: 134.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:19:50 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 70ms (Views: 67.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:19:50 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 73ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:19:51 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 96ms (Views: 91.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:19:52 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 81ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:19:52 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 72ms (Views: 68.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:19:53 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 72ms (Views: 69.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:20:49 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 96ms (Views: 92.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:20:51 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 75ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:20:51 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 87ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:21:33 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 122ms (Views: 117.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:21:35 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 72ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:21:35 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 63ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:21:49 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 105ms (Views: 101.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:22:12 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 96ms (Views: 92.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:22:13 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 97ms (Views: 92.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:22:14 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 66ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:23:15 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 103ms (Views: 99.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:23:54 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 114ms (Views: 108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:23:55 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 75ms (Views: 72.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:23:56 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 85ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:24:15 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 94ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:24:34 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 182ms (Views: 177.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:24:35 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 71ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:25:21 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 135ms (Views: 131.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:25:22 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 94ms (Views: 91.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:25:23 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 98ms (Views: 95.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:25:23 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 76ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:26:44 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 98ms (Views: 94.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:26:45 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 73ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:26:45 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 86ms (Views: 82.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:27:10 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 125ms (Views: 120.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:27:12 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 72ms (Views: 67.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:27:12 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 68ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:29:09 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 97ms (Views: 93.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:29:10 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 71ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:29:11 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 79ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:29:38 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 121ms (Views: 116.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:29:39 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 68ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:29:52 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 106ms (Views: 103.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:29:53 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 70ms (Views: 67.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:30:17 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 112ms (Views: 109.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:30:58 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 133ms (Views: 128.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:34:47 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (27.4ms)
+Completed 200 OK in 953ms (Views: 928.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:35:44 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (79.8ms)
+Completed 200 OK in 272ms (Views: 270.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:35:46 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 66ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:35:53 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 82ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:36:05 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 104ms (Views: 100.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:36:06 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 125ms (Views: 119.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:36:07 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 89ms (Views: 84.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:36:07 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 89ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:36:58 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 118ms (Views: 115.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:37:46 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 102ms (Views: 97.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:37:47 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 90ms (Views: 86.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:37:48 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 72ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:37:48 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 69ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:38:08 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 190ms (Views: 187.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:38:09 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 85ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:38:10 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 68ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:38:10 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 65ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:38:10 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 77ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:38:11 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 68ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:38:11 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 75ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:38:11 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 135ms (Views: 132.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:38:12 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 88ms (Views: 85.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:07 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 133ms (Views: 127.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:08 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (122.5ms)
+Completed 200 OK in 252ms (Views: 249.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:09 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 86ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:09 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 77ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:09 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 69ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:10 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 84ms (Views: 80.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:10 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 75ms (Views: 72.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:10 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 85ms (Views: 81.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:27 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 67ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:28 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 71ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:28 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 79ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:29 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 111ms (Views: 106.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:29 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 70ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:29 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 71ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:29 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 74ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:30 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 77ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:30 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 84ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:30 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 77ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:39:59 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 243ms (Views: 239.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:40:33 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 96ms (Views: 92.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:40:34 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 66ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:40:35 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 89ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:40:35 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 72ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:41:02 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 193ms (Views: 188.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:41:12 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (76.2ms)
+Completed 200 OK in 213ms (Views: 209.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:41:14 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 70ms (Views: 67.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:41:15 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 108ms (Views: 104.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/save" for ::1 at 2021-12-31 18:41:28 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JjO9Sh8n4ZXt25OlBKVwuWEAXOvYA1n14m8c9eGlr3+wVcqm6iClqmUPXiBrrMx7cLWo9gxUzcqSu2fjCdNeAA==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 187ms (Views: 123.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/save" for ::1 at 2021-12-31 18:41:39 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JjO9Sh8n4ZXt25OlBKVwuWEAXOvYA1n14m8c9eGlr3+wVcqm6iClqmUPXiBrrMx7cLWo9gxUzcqSu2fjCdNeAA==", "generate"=>{"id"=>"dddddddddd"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 130ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:42:26 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (24.2ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (220.1ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1542.2ms)
+Started GET "/save" for ::1 at 2021-12-31 18:42:41 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (2.1ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (115.9ms)
+Started GET "/save" for ::1 at 2021-12-31 18:42:42 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (3.5ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (172.4ms)
+Started GET "/index" for ::1 at 2021-12-31 18:42:48 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 85ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/save" for ::1 at 2021-12-31 18:42:52 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"12jlCIOUcajUBvIGWWSUmDcAJAZQ6CJ5mIbWn+qXGKZBDpLkdpM1l1zSP4M2bShaJrXQG4S/tkboUq2JAuHp2Q==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 137ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:44:32 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (3.1ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (116.6ms)
+Started POST "/save" for ::1 at 2021-12-31 18:44:37 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"12jlCIOUcajUBvIGWWSUmDcAJAZQ6CJ5mIbWn+qXGKZBDpLkdpM1l1zSP4M2bShaJrXQG4S/tkboUq2JAuHp2Q==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 311ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:44:40 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (3.3ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (119.3ms)
+Started POST "/save" for ::1 at 2021-12-31 18:44:44 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"12jlCIOUcajUBvIGWWSUmDcAJAZQ6CJ5mIbWn+qXGKZBDpLkdpM1l1zSP4M2bShaJrXQG4S/tkboUq2JAuHp2Q==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 347ms (Views: 109.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:45:00 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (1.9ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (117.9ms)
+Started POST "/save" for ::1 at 2021-12-31 18:45:03 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"12jlCIOUcajUBvIGWWSUmDcAJAZQ6CJ5mIbWn+qXGKZBDpLkdpM1l1zSP4M2bShaJrXQG4S/tkboUq2JAuHp2Q==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 242ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:46:15 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (1.6ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (118.7ms)
+Started POST "/save" for ::1 at 2021-12-31 18:46:19 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"12jlCIOUcajUBvIGWWSUmDcAJAZQ6CJ5mIbWn+qXGKZBDpLkdpM1l1zSP4M2bShaJrXQG4S/tkboUq2JAuHp2Q==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 257ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:46:50 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (1.4ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.9ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (111.9ms)
+Started GET "/save" for ::1 at 2021-12-31 18:46:50 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (1.8ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (111.1ms)
+Started POST "/save" for ::1 at 2021-12-31 18:46:52 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"12jlCIOUcajUBvIGWWSUmDcAJAZQ6CJ5mIbWn+qXGKZBDpLkdpM1l1zSP4M2bShaJrXQG4S/tkboUq2JAuHp2Q==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 184ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:47:58 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (3.1ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (145.2ms)
+Started POST "/save" for ::1 at 2021-12-31 18:48:01 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"12jlCIOUcajUBvIGWWSUmDcAJAZQ6CJ5mIbWn+qXGKZBDpLkdpM1l1zSP4M2bShaJrXQG4S/tkboUq2JAuHp2Q==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 185ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/download" for ::1 at 2021-12-31 18:48:03 +0630
+Processing by Tutorial7Controller#download as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rSaLV/ba89qd8e60dKbAxLGhzcKagC6itawy09bHRro7QPy7A9235RUlIzEbr3wGoBQ5307Xup3FeEnFPrG3xQ==", "commit"=>"Download"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data  (62.8ms)
+Completed 200 OK in 125ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:48:06 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (1.9ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.1ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (118.8ms)
+Started GET "/save" for ::1 at 2021-12-31 18:48:24 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (2.5ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (117.6ms)
+Started POST "/save" for ::1 at 2021-12-31 18:48:26 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"12jlCIOUcajUBvIGWWSUmDcAJAZQ6CJ5mIbWn+qXGKZBDpLkdpM1l1zSP4M2bShaJrXQG4S/tkboUq2JAuHp2Q==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 175ms (Views: 67.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:48:46 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 117ms (Views: 113.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:48:47 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 70ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:48:48 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 64ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:48:48 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 75ms (Views: 69.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:48:48 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 71ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:48:48 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 85ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:48:49 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 82ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:48:49 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 71ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:48:49 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 74ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:48:49 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 75ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:48:49 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 84ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:48:50 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 81ms (Views: 78.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:48:50 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 71ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:48:50 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 82ms (Views: 79.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:48:50 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 72ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:48:51 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 83ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:48:51 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 75ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:49:06 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 73ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/save" for ::1 at 2021-12-31 18:49:10 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nWhzql1NyK2ElzPiFYJm3ZMnnhhltdbDKOYtOgp5bgELDgRGqEqMkgxD/md6i9ofgpJqBbHiQvxYMlYs4g+ffg==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 179ms (Views: 84.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:49:27 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (1.9ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (95.3ms)
+Started POST "/save" for ::1 at 2021-12-31 18:49:30 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nWhzql1NyK2ElzPiFYJm3ZMnnhhltdbDKOYtOgp5bgELDgRGqEqMkgxD/md6i9ofgpJqBbHiQvxYMlYs4g+ffg==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 245ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:50:51 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (40.6ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (1.5ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (156.9ms)
+Started POST "/save" for ::1 at 2021-12-31 18:50:57 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nWhzql1NyK2ElzPiFYJm3ZMnnhhltdbDKOYtOgp5bgELDgRGqEqMkgxD/md6i9ofgpJqBbHiQvxYMlYs4g+ffg==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 219ms (Views: 108.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:51:44 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (3.4ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (22.3ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (142.2ms)
+Started POST "/save" for ::1 at 2021-12-31 18:51:46 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nWhzql1NyK2ElzPiFYJm3ZMnnhhltdbDKOYtOgp5bgELDgRGqEqMkgxD/md6i9ofgpJqBbHiQvxYMlYs4g+ffg==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 323ms (Views: 142.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:52:05 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (1.4ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (113.3ms)
+Started POST "/save" for ::1 at 2021-12-31 18:52:08 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nWhzql1NyK2ElzPiFYJm3ZMnnhhltdbDKOYtOgp5bgELDgRGqEqMkgxD/md6i9ofgpJqBbHiQvxYMlYs4g+ffg==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 211ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:52:29 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (3.2ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (136.1ms)
+Started POST "/save" for ::1 at 2021-12-31 18:52:33 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nWhzql1NyK2ElzPiFYJm3ZMnnhhltdbDKOYtOgp5bgELDgRGqEqMkgxD/md6i9ofgpJqBbHiQvxYMlYs4g+ffg==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 260ms (Views: 94.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:53:03 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (1.4ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (67.5ms)
+Started POST "/save" for ::1 at 2021-12-31 18:53:06 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nWhzql1NyK2ElzPiFYJm3ZMnnhhltdbDKOYtOgp5bgELDgRGqEqMkgxD/md6i9ofgpJqBbHiQvxYMlYs4g+ffg==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 188ms (Views: 106.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:56:05 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (2.0ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (91.6ms)
+Started POST "/save" for ::1 at 2021-12-31 18:56:08 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nWhzql1NyK2ElzPiFYJm3ZMnnhhltdbDKOYtOgp5bgELDgRGqEqMkgxD/md6i9ofgpJqBbHiQvxYMlYs4g+ffg==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 227ms (Views: 139.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:56:55 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (2.1ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (91.7ms)
+Started POST "/save" for ::1 at 2021-12-31 18:56:58 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nWhzql1NyK2ElzPiFYJm3ZMnnhhltdbDKOYtOgp5bgELDgRGqEqMkgxD/md6i9ofgpJqBbHiQvxYMlYs4g+ffg==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 270ms (Views: 126.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:57:27 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (1.9ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (92.2ms)
+Started POST "/save" for ::1 at 2021-12-31 18:57:36 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nWhzql1NyK2ElzPiFYJm3ZMnnhhltdbDKOYtOgp5bgELDgRGqEqMkgxD/md6i9ofgpJqBbHiQvxYMlYs4g+ffg==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 193ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:58:13 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (2.0ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (91.5ms)
+Started GET "/index" for ::1 at 2021-12-31 18:58:15 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 79ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 18:58:16 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 57ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/save" for ::1 at 2021-12-31 18:58:19 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bC6mpl19vGvX7gi98U7EXgUVq1cpZKGyqS811FlAK5D6SNFKqHr4VF86xTieR3icFKBfSv0zNY3Z+07CsTba7w==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 138ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/download" for ::1 at 2021-12-31 18:58:20 +0630
+Processing by Tutorial7Controller#download as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bdZsrh4KNtfwuoeiqMt2hrTOyxKxTvHI1WpCIuguTzf7sBtC6w1y6HhuSifHwspEpXs/D2UZZfelvjk0AFi+SA==", "commit"=>"Download"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data  (45.6ms)
+Completed 200 OK in 90ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:59:07 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (3.4ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (103.4ms)
+Started POST "/save" for ::1 at 2021-12-31 18:59:13 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bC6mpl19vGvX7gi98U7EXgUVq1cpZKGyqS811FlAK5D6SNFKqHr4VF86xTieR3icFKBfSv0zNY3Z+07CsTba7w==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 183ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:59:14 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (1.5ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (90.7ms)
+Started GET "/index" for ::1 at 2021-12-31 18:59:30 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 61ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/save" for ::1 at 2021-12-31 18:59:33 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"daMPvn98AE2lnuIdJLseoNrzjPb+tTV38VFxtzlzXiPjxXhSintEci1KL5hLsqJiy0Z46yrioUiBhQqh0QWvXA==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 209ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 18:59:51 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (3.5ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (148.8ms)
+Started GET "/index" for ::1 at 2021-12-31 18:59:54 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 83ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/save" for ::1 at 2021-12-31 18:59:56 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y0FMojmT5sGAZuDRfJZvFw8JukJiO6pz/Y6ijM5ZHDf1JztOzJSi/giyLVQTn9PVHrxOX7ZsPkyNWtmaJi/tSA==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 239ms (Views: 146.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 19:01:02 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (1.8ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (91.3ms)
+Started GET "/index" for ::1 at 2021-12-31 19:01:04 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 57ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 19:01:05 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 61ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 19:01:05 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 73ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 19:01:05 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 62ms (Views: 59.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/save" for ::1 at 2021-12-31 19:01:47 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6pA8VPOBYBWI6pdC0SicmbGm6NsowJiK+xpas2sCOct89ku4BoYkKgA+Wse+ISBboBMcxvyXDLWLziGlg3TItA==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (94.1ms)
+Completed 200 OK in 2483ms (Views: 1975.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/save" for ::1 at 2021-12-31 19:02:37 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6pA8VPOBYBWI6pdC0SicmbGm6NsowJiK+xpas2sCOct89ku4BoYkKgA+Wse+ISBboBMcxvyXDLWLziGlg3TItA==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 293ms (Views: 108.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 19:03:34 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (164.9ms)
+Completed 200 OK in 659ms (Views: 644.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/save" for ::1 at 2021-12-31 19:03:41 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K2tZZwmZiPxPxx3rEc70tBXXVD/mvEVU225JxssOvOG9DS6L/J7Mw8cT0G5+x0h2BGKgIjLr0WurujLQI3hNng==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 265ms (Views: 93.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 19:04:30 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (2.5ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.5ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (124.1ms)
+Started POST "/save" for ::1 at 2021-12-31 19:04:32 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K2tZZwmZiPxPxx3rEc70tBXXVD/mvEVU225JxssOvOG9DS6L/J7Mw8cT0G5+x0h2BGKgIjLr0WurujLQI3hNng==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 511ms (Views: 383.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/save" for ::1 at 2021-12-31 19:05:43 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/save"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (3.0ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (108.5ms)
+Started POST "/save" for ::1 at 2021-12-31 19:05:45 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K2tZZwmZiPxPxx3rEc70tBXXVD/mvEVU225JxssOvOG9DS6L/J7Mw8cT0G5+x0h2BGKgIjLr0WurujLQI3hNng==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 301ms (Views: 157.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 19:06:22 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 140ms (Views: 136.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/save" for ::1 at 2021-12-31 19:06:25 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o0I3BvrwfAJXAWbIc54rsIIDGUwaZjFMNR8uE/Ck42k1JEDqD/c4Pd/Vq00cl5dyk7btUc4xpXNFy1UFGNISFg==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 199ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/save" for ::1 at 2021-12-31 19:07:01 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o0I3BvrwfAJXAWbIc54rsIIDGUwaZjFMNR8uE/Ck42k1JEDqD/c4Pd/Vq00cl5dyk7btUc4xpXNFy1UFGNISFg==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 210ms (Views: 92.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 19:07:19 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 99ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/save" for ::1 at 2021-12-31 19:07:23 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l1YVwAKR7J4YfFOV2RjQ8KT3PHxtgqbvwMURY3VuUm0BMGIs95aooZConhC2EWwytULIYbnVMtCwEWp1nRijEg==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 198ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/save" for ::1 at 2021-12-31 19:07:55 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l1YVwAKR7J4YfFOV2RjQ8KT3PHxtgqbvwMURY3VuUm0BMGIs95aooZConhC2EWwytULIYbnVMtCwEWp1nRijEg==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 156ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/save" for ::1 at 2021-12-31 19:08:12 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l1YVwAKR7J4YfFOV2RjQ8KT3PHxtgqbvwMURY3VuUm0BMGIs95aooZConhC2EWwytULIYbnVMtCwEWp1nRijEg==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 186ms (Views: 90.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2021-12-31 19:09:13 +0630
+Processing by Tutorial7Controller#index as HTML
+  Rendering tutorial7/index.html.erb within layouts/application
+  Rendered tutorial7/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 91ms (Views: 88.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/save" for ::1 at 2021-12-31 19:09:16 +0630
+Processing by Tutorial7Controller#generate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PKF4cnNQ0PnHbIx1cznfzBH1Do5pl9Oqf8h/xoEjSNiqxw+ehleUxk+4QfAcMGMOAED6k73AR5UPHATQaVW5pw==", "generate"=>{"id"=>"12345"}, "commit"=>"Generate"}
+  Rendering tutorial7/generate.html.erb within layouts/application
+  Rendered tutorial7/generate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 195ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
