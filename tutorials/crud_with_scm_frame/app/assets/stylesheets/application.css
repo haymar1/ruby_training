@@ -1,0 +1,76 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ h1,h3 {
+    text-align: center;
+    color: olive;
+    font-style: italic;
+}
+
+.login {
+    width: 500px;
+    border: 1px solid yellow;
+    margin: 100px 400px;
+}
+
+.email {
+    margin-top: 10px;
+
+}
+
+input[type="email"i],
+input[type="password"i],
+input[type="text"i] ,textarea{
+    width: 200px;
+    margin-left: 100px;
+}
+
+.reset-link,
+.submit {
+    text-align: center;
+ 
+}
+.reset-link{
+    margin-bottom: 30px; 
+}
+
+input[type="submit"i] {
+    background: olive;
+    border-radius: 5px;
+    font-style: italic;
+    margin: 20px 0;
+}
+table{
+    margin: 0 auto;
+    background-color:lightgoldenrodyellow;
+}
+.usertable{
+    border: 1px solid oldlace;
+    width: 600px;
+    margin: 0 auto;
+   
+}
+.user_detail{
+    border: 3px solid oldlace;
+}
+strong{
+    padding-right: 10px;
+}
+.formcontrol{
+    background-color: olive;
+}
+.title{
+margin-left: 70px;
+}
