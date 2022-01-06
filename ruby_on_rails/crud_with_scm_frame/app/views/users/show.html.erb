@@ -1,0 +1,50 @@
+<div class="user_detail">
+  <h2>User Details</h2>
+  <p>
+    <strong>Name:</strong>
+    <%= @user.name %>
+  </p>
+  <p>
+    <strong>Email:</strong>
+    <%= @user.email %>
+  </p>
+  <p>
+    <strong>Super User Flag:</strong>
+    <%= @user.super_user_flag %>
+  </p>
+  <p>
+    <strong>Phone:</strong>
+    <%= @user.phone %>
+  </p>
+  <p>
+    <strong>Address:</strong>
+    <%= @user.address %>
+  </p>
+  <p>
+    <strong>Birthday:</strong>
+    <%= @user.birthday %>
+  </p>
+</div>
+<div class="user_detail">
+  <h2 class="title">Posts</h2>
+  <% @user.posts.each do |post| %>
+    <p>
+      <strong>Title:</strong>
+      <%= post.title %>
+    </p>
+    <p>
+      <strong>Description:</strong>
+      <%= post.description %>
+    </p>
+    <%= form_with url: post_path(id: post.id), method: :DELETE do |f| %>
+      <%= f.submit "Destroy" %>
+    <% end %>
+    <%= link_to "Edit Post", "/posts/#{post.id}/edit" %>
+  </div>
+<% end %>
+<br>
+<br>
+<br>
+<div>
+  <%= link_to "New Post", "/posts/new" %>
+</div>
