@@ -1,0 +1,29 @@
+ <div class="usertable">
+ <% #= form_with model: post do |f| %> 
+<%= form_for :post, url: "/posts/#{post.id}", method: :put do |f| %>
+<p>
+    <%= f.label :title, "Title:" %> &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;   &nbsp;  &nbsp; 
+    <%= f.text_field :title, class: "form-control-user" %>
+  </p>
+
+  <p>
+    <%= f.label :description, "Description:" %> &nbsp; &nbsp; 
+    <%= f.text_area :description, class: "form-control-user" %>
+  </p>
+
+  <p>
+
+    <%= f.label :public_flag, "Public Flag:" %> &nbsp; &nbsp;
+    <%= f.text_field :public_flag, class: "form-control-user" %>
+  </p>
+        <p>
+    <%= f.label :user_id, "User ID:" %> &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  
+    <%= f.text_field :user_id, class: "form-control-user" %>
+  </p>
+  
+  <div class="submit">
+    <%= f.submit %>
+  </div>
+  </div>
+<% end %>
+

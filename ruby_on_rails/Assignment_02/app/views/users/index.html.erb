@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <nav>
+      <ul>
+        <li> <%= link_to "New User", new_user_path %></li>
+        <li><%= link_to "Logout", logout_path %></li>
+      </ul>
+    </nav>
+  </head>
+  <body>
+    <div class="search-form">
+      <%= form_with url: search_user_path, method: :get, local: true do |f| %>
+        <%= f.text_field :name, class: "form-control", placeholder: "User Name" %>
+        <%= f.text_field :email, class: "form-control", placeholder: "Email" %>
+        <%= f.select :super_user_flag, options_for_select([["Choose UserType", ""], ["super user", 1], ["normal user", 0]]), {} %>
+        <%= f.text_field :phone, class: "form-control", placeholder: "Phone" %>
+        <%= f.text_field :address, class: "form-control", placeholder: "Address" %>
+        <%= f.date_field :birthday, class: "form-control", placeholder: "Birthday" %>
+        <%= f.submit "Search" %>
+      <% end %>
+    </div>
+    <p id="notice"><%= notice %></p>
+    <div class="container">
+      <h3>USER LIST</h3>
+      <br>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Super User Flag</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>Birthday</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @users.each do |user| %>
+            <tr>
+              <td><%= user.name %></td>
+              <td><%= user.email %></td>
+              <td><%= user.super_user_flag %></td>
+              <td><%= user.phone %></td>
+              <td><%= user.address %></td>
+              <td><%= user.birthday %></td>
+              <div>
+                <td>
+                  <%= link_to "Show", user_path(user) %>
+                  <%= link_to "Edit", edit_user_path(user) %>
+                  <%= form_with url: user_path(id: user.id), method: :DELETE do |f| %>
+                    <%= f.submit "Destroy" %>
+                  <% end %>
+                </div>
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<%= form_with model: user do |f| %>
+  <div class="usertable">
+    <p>
+      <%= f.label :name, "Name:" %> &nbsp; &nbsp; &nbsp;  
+      <%= f.text_field :name, class: "form-control-user" %>
+    </p>
+    <p>
+      <%= f.label :email, "Email:" %>  &nbsp;  &nbsp; &nbsp;   
+      <%= f.text_field :email, class: "form-control-user" %>
+    </p>
+    <p>
+      <%= f.label :password, "Password:" %>
+      <%= f.password_field :password, class: "form-control-user" %>
+    </p>
+    <p>
+      <%=f.select :super_user_flag, options_for_select([["Choose UserType", ""], ["super user", 1], ["normal user", 0]]), {} %>
+    </p>
+    <p>
+      <%= f.label :phone, "Phone:" %> &nbsp;  &nbsp;   &nbsp;  
+      <%= f.text_field :phone, class: "form-control-user" %>
+    </p>
+    <p>
+      <%= f.label :address, "Address:" %> &nbsp; 
+      <%= f.text_field :address, class: "form-control-user" %>
+    </p>
+    <p>
+      <%= f.label :birthday, "Birthday:" %>&nbsp;
+      <%= f.date_field :birthday, class: "form-control-user" %>
+    </p>
+    <div class="submit">
+      <%= f.submit %>
+    </div>
+  </div>
+<% end %>
