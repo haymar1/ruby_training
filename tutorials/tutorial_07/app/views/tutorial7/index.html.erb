@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>QR Code Generater </h1>
+  <%= form_for :generate, url: save_path do |f| %>
+    <%= f.text_field :id, required: true, placeholder: "Enter Id " %>
+  </p>
+  <div class="submit">
+    <%= f.submit "Generate" , class: "test"%>
+  </div>
+<% end %>
+</div>
