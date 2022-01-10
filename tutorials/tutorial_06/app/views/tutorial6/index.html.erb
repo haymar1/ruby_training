@@ -1,6 +1,1 @@
-<%= form_for :content, url: uploadimage_path do |f| %>
 
-  <%= f.file_field :image, accept: 'image/png, image/gif, image/jpeg' %><br><br><br>
-  Folder:<%= f.text_field :folder_path %><br><br><br>
-  <%= f.submit 'Save' %>  
-<% end %>
