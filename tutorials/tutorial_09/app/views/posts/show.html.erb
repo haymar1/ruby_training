@@ -1,0 +1,12 @@
+<p id="notice"><%= notice %></p>
+<p><%= @post.title %></h1>
+<p><%= @post.description %></p>
+<p><%= @post.public_flag %></p>
+<p><%= @post.created_at %></p>
+<p><%= @post.updated_at %></p>
+<p><%= @post.user_id %></p>
+<br>
+<br>
+<br>
+<%= link_to 'Edit', "/users/#{@post.user_id}/posts/#{@post.id}/edit" %>
+<%= link_to "Back", user_posts_path %>
