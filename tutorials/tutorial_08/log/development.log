@@ -1,0 +1,36 @@
+Started GET "/posts" for ::1 at 2022-01-09 22:27:41 +0630
+  [1m[36mActiveRecord::SchemaMigration Load (179.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (121.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts`[0m
+  Rendered posts/index.html.erb within layouts/application (220.4ms)
+Completed 200 OK in 2453ms (Views: 2020.3ms | ActiveRecord: 154.8ms)
+
+
+Started DELETE "/posts/13" for ::1 at 2022-01-09 22:27:53 +0630
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"1CYUEGTYI7nzo4cvAFKdfQmG8D+i2/cv8TyAlSr39IrSilq0UKzR/VufuVENegn6NR6HGGh6DVSCQJOELmeVmQ==", "id"=>"13"}
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT  `posts`.* FROM `posts` WHERE `posts`.`id` = 13 LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (49.9ms)[0m  [1m[31mDELETE FROM `posts` WHERE `posts`.`id` = 13[0m
+  [1m[35m (74.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 179ms (ActiveRecord: 125.7ms)
+
+
+Started GET "/posts" for ::1 at 2022-01-09 22:27:53 +0630
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.3ms)[0m  [1m[34mSELECT `posts`.* FROM `posts`[0m
+  Rendered posts/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 78ms (Views: 73.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/posts/new" for ::1 at 2022-01-09 22:28:36 +0630
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (532.8ms)
+  Rendered posts/new.html.erb within layouts/application (560.1ms)
+Completed 200 OK in 627ms (Views: 617.0ms | ActiveRecord: 0.0ms)
+
+
