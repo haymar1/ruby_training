@@ -1,4 +1,36 @@
 <h1>Editing User</h1>
-<%= render "form", user: @user %>
+<%#= render "form", user: @user %>
 <%#= link_to "Show", @user %> |
 <%#= link_to "Back", users_path %>
+<%= form_with model: @user do |f| %>
+  <div class="usertable">
+    <p>
+      <%= f.label :name, "Name:" %> &nbsp; &nbsp; &nbsp;  
+      <%= f.text_field :name, class: "form-control" %>
+    </p>
+    <p>
+      <%= f.label :email, "Email:" %>  &nbsp;  &nbsp; &nbsp;   
+      <%= f.text_field :email, class: "form-control" %>
+    </p>
+
+    <p>
+      <%= f.label :super_user_flag, "Super User Flag:" %>
+      <%= f.radio_button :super_user_flag, class: "form-control" %>
+    </p>
+    <p>
+      <%= f.label :phone, "Phone:" %> &nbsp;  &nbsp;   &nbsp;  
+      <%= f.text_field :phone, class: "form-control" %>
+    </p>
+    <p>
+      <%= f.label :address, "Address:" %> &nbsp; 
+      <%= f.text_field :address, class: "form-control" %>
+    </p>
+    <p>
+      <%= f.label :birthday, "Birthday:" %>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;   &nbsp;   &nbsp;  
+      <%= f.date_field :birthday, class: "form-control" %>
+    </p>
+    <div class="submit">
+      <%= f.submit %>
+    </div>
+  </div>
+<% end %>
