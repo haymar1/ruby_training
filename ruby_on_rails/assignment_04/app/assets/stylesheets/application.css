@@ -1,0 +1,148 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+#error_explanation {
+    color: red;
+    border: 1px solid black;
+}
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ .notice{
+     color:green;
+ }
+h1,
+h3,
+h2 {
+    text-align: center;
+    color: olive;
+    font-style: italic;
+}
+
+.login {
+    width: 500px;
+    border: 1px solid yellow;
+    margin: 100px 400px;
+}
+
+.email {
+    margin-top: 10px;
+
+}
+
+.reset-link,
+.submit {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.reset-link {
+    margin-bottom: 30px;
+}
+
+table {
+    margin: 0 auto;
+    background-color: lightgoldenrodyellow;
+}
+
+th {
+    width: 150px;
+}
+
+.usertable {
+    border: 1px solid oldlace;
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+.user_detail {
+    margin-left: 50px;
+    border: 3px solid oldlace;
+}
+
+strong {
+    padding-right: 10px;
+    }
+
+    .title {
+        margin-left: 70px;
+    }
+
+
+    .form-control {
+        width: 200px;
+        margin-left: 50px;
+    }
+
+    .login-form {
+        width: 250px;
+        margin-left: 120px;
+    }
+
+    .label {
+        margin-left: 100px;
+    }
+.form-control-user {
+    background-color: rgb(252, 252, 192);
+    padding: 6px 70px;
+    margin-left: 100px;
+
+}
+
+.back,
+.show {
+    border-radius: 5px;
+    font-style: italic;
+    text-align: center;
+    color: #ffffff;
+
+    background: rgb(108, 131, 66);
+
+    }
+.back {
+    margin: 20px 0;
+}
+
+.logout {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.user-btn {
+    border-radius: 3px;
+    margin-top: 10px;
+    width: 110px;
+    font-style: italic;
+    text-align: center;
+    color: #ffffff;
+
+    background: rgb(108, 131, 66);
+}

@@ -1,0 +1,22 @@
+<%= button_to 'Back', users_path, :method => :get, class: "back"%>
+<%= button_to 'Show User Info',  @user, :method => :get, class: "show"%>
+<h1>Update  User</h1>
+<%= form_with model: @user do |f| %>
+  <div class="usertable">
+    <p class="label">
+      <%= f.label :name, "Name:" %> &nbsp; &nbsp; &nbsp;  
+      <%= f.text_field :name, class: "form-control" %>
+    </p>
+    <p class="label">
+      <%= f.label :email, "Email:" %>  &nbsp;  &nbsp; &nbsp;   
+      <%= f.text_field :email, class: "form-control" %>
+    </p>
+    <p class="label">
+      <%= f.label :address, "Address:" %> &nbsp; 
+      <%= f.text_field :address, class: "form-control" %>
+    </p>
+    <div class="submit">
+      <%= f.submit %>
+    </div>
+  </div>
+<% end %>

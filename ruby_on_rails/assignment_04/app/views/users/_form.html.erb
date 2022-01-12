@@ -1,0 +1,46 @@
+<%= form_with model: user do |f| %>
+
+
+<% if @user.errors.any? %>
+    <div id="error_explanation">
+      <p>
+        <%= pluralize(@user.errors.count, "error") %> prohibited
+        this article from being saved:
+      </p>
+      <ul>
+        <% @user.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+
+
+
+
+  <div class="usertable">
+    <p class="label">
+      <%= f.label :name, "Name:" %> &nbsp; &nbsp; &nbsp;  
+      <%= f.text_field :name, class: "form-control" %>
+    </p>
+    <p class="label">
+      <%= f.label :email, "Email:" %>  &nbsp;  &nbsp; &nbsp;   
+      <%= f.text_field :email, class: "form-control" %>
+    </p>
+    <p class="label">
+      <%= f.label :password, "Password:" %>
+      <%= f.password_field :password, class: "form-control" %>
+    </p>
+
+ 
+    <p class="label">
+      <%= f.label :address, "Address:" %> &nbsp; 
+      <%= f.text_field :address, class: "form-control" %>
+    </p>
+
+    <div class="submit">
+      <%= f.submit%>
+    </div>
+  </div>
+<% end %>

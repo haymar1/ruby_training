@@ -1,0 +1,33 @@
+<%= button_to 'Back', posts_path, :method => :get, class: "back"%>
+<%= form_with model: @post, url: posts_path do |f| %>
+  <% if @post.errors.any? %>
+    <div id="error_explanation">
+      <p>
+        <%= pluralize(@post.errors.count, "error") %> prohibited
+        this article from being saved:
+      </p>
+      <ul>
+        <% @post.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <h2 class="title">Add a post:</h2>
+  <div class="usertable">
+    <p class="label">
+      <%= f.label :title, "Title:" %> &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 
+      <%= f.text_field :title, class: "form-control" %>
+    </p>
+    <p class="label">
+      <%= f.label :description, "Description:" %>
+      <%= f.text_area :description, class: "form-control" %>
+    </p>
+    <p class="label">
+      <%= f.label :user_id, "User ID:" %> &nbsp; &nbsp;  &nbsp;
+      <%= f.text_field :user_id, class: "form-control" %>
+    </p>
+    <div class="submit">
+      <%= f.submit %>
+    </div>
+  <% end %>

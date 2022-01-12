@@ -1,0 +1,16 @@
+<%= button_to 'Back', users_path, :method => :get, class: "back"%>
+<div class="user_detail">
+  <h4>User Details</h4>
+  <p>
+    <strong>Name:</strong>
+    <%= @user.name %>
+  </p>
+  <p>
+    <strong>Email:</strong>
+    <%= @user.email %>
+  </p>
+  <p>
+    <strong>Address:</strong>
+    <%= @user.address %>
+  </p>
+</div>
