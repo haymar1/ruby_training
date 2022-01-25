@@ -1,0 +1,91 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.header{
+   
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.link{
+  
+ margin-right: 20px;
+   padding: 5px 20px;
+   border: 1px solid blueviolet;
+   border-radius: 5px;
+   background-color: rgb(50, 205, 166);
+   text-align: center;
+   color: cornsilk;
+}
+h1{
+    margin-bottom: 30px;
+    
+}
+h2{
+    margin-left: 35px;
+}
+.userdetail{
+    border-bottom: 5px solid rgba(226, 156, 131, 0.644);
+}
+.mb-20 {
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  li{
+     list-style-type: none;
+  }
+  .column {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    width: 500px;
+  }
+  
+  .left {
+
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+   margin-left: 0px;
+  }
+  
+  .right {
+ margin-left: -110px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-style:italic;
+  }
+  .edit{
+    margin-left: 35px;
+    margin-right: 60px;
+
+      padding: 5px 25px;
+      border: 1px solid blueviolet;
+      border-radius: 5px;
+      background-color: yellowgreen;
+      text-align: center;
+      color: cornsilk;
+      
+   }
+   .delete{
+  
+      padding: 5px 20px;
+      border: 1px solid blueviolet;
+      border-radius: 5px;
+      background-color: skyblue;
+      text-align: center;
+      color: cornsilk;
+   }
+   .container{
+     width: 600px;
+     margin: 0 auto;
+     border: 1px solid yellow;
+     text-align: center;
+   
+   }
+   .submit{
+     margin-bottom: 30px;
+   }
+   .form-control{
+     margin-left: 50px;
+   }
