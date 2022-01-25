@@ -1,0 +1,23 @@
+<%= form_for :post, url: "/posts/#{post.id}", method: :put do |f| %>
+  <div class="mb-20">
+    <%= f.label :title, "Title:" %> &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 
+    <%= f.text_field :title, class: "form-control" %>
+    <% post.errors.full_messages_for(:title).each do |message| %>
+      <div class="notice"><%= message %></div>
+    <% end %>
+  </div>
+  <div class="mb-20">
+    <%= f.label :description, "Description:" %>
+    <%= f.text_area :description, class: "form-control" %>
+    <% post.errors.full_messages_for(:title).each do |message| %>
+      <div class="notice"><%= message %></div>
+    <% end %>
+  </div>
+  <div class="mb-20">
+    <%= f.label :public_flag, "Public Flag:" %>
+    <%= f.radio_button :public_flag, class: "form-control" %>
+  </div>
+  <div class="submit">
+    <%= f.submit "Update", class: "edit" %>
+  </div>
+<% end %>

@@ -1,0 +1,51 @@
+<p class="alert">
+  <div class="header">
+    <%= link_to "Back", users_path,  class: "link" %>
+  </div>
+  <div class="userdetail">
+    <h2>User Details</h2>
+    <ul class="column">
+      <div class="left">
+        <li class="mb-20">Name:</li>
+        <li class="mb-20">Email:</li>
+        <li class="mb-20">Super User:</li>
+        <li class="mb-20">Phone:</li>
+        <li class="mb-20">Address:</li>
+        <li class="mb-20">Birthday:</li>
+      </div>
+      <div class="right">
+        <li class="mb-20"><%= @user.name %></li>
+        <li class="mb-20"><%= @user.email %></li>
+        <li class="mb-20"><%= @user.super_user_flag %></li>
+        <li class="mb-20"><%= @user.phone %></li>
+        <li class="mb-20"><%= @user.address %></li>
+        <li class="mb-20"><%= @user.birthday %></li>
+      </div>
+    </ul>
+    <div class="header">
+      <%= link_to "Edit", edit_user_path, class: "edit" %>
+      <%= link_to "Delete", user_path, method: :delete, data: { confirm: "Are you sure?"}, class: "delete"  %>
+    </div>
+  </div>
+  <% @user.posts.each do |post| %>
+    <div class="userdetail">
+      <h2><%= @user.name %> created Post</h2>
+      <ul class="column">
+        <div class="left">
+          <li class="mb-20">Title:</li>
+          <li class="mb-20">Description:</li>
+        </div>
+        <div class="right">
+          <li class="mb-20"><%= post.title %></li>
+          <li class="mb-20"><%= post.description %></li>
+        </div>
+      </ul>
+      <div class="header">
+        <%= link_to "Edit", edit_post_path(id: post.id), class: "edit"%>
+        <%= link_to "Delete", post_path(id: post.id), method: :delete, data: { confirm: "Are you sure?" }, class: "delete" %>
+      </div>
+    </div>
+  <% end %>
+  <div class="header">
+    <%= link_to " Create New Post", "/posts/new" %>
+  </div>

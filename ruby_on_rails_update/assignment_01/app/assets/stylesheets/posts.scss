@@ -1,0 +1,23 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.header{
+   
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.link{
+  
+ margin-right: 20px;
+   padding: 7px 20px;
+   border: 1px solid blueviolet;
+   border-radius: 5px;
+   background-color: rgba(226, 156, 131, 0.644);
+   text-align: center;
+   color: cornsilk;
+}
+.mb-20 {
+  margin-bottom: 20px;
+  text-decoration: none;
+}
