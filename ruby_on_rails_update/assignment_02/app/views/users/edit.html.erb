@@ -1,0 +1,57 @@
+<div class="header">
+  <%= link_to "Back", user_path, class: "link" %>
+</div>
+<div class="container">
+  <h1>Editing User</h1>
+  <%= form_with model: @user do |f| %>
+    <div class="mb-20">
+      <%= f.label :name, "Name:" %> &nbsp; &nbsp; &nbsp;  
+      <%= f.text_field :name, class: "form-control" %>
+      <% @user.errors.full_messages_for(:name).each do |message| %>
+        <div class="notice"><%= message %></div>
+      <% end %>
+    </div>
+    <div class="mb-20">
+      <%= f.label :email, "Email:" %>  &nbsp;  &nbsp; &nbsp;   
+      <%= f.text_field :email, class: "form-control" %>
+      <% @user.errors.full_messages_for(:email).each do |message| %>
+        <div class="notice"><%= message %></div>
+      <% end %>
+    </div>
+    <div class="mb-20">
+      <%= f.label :password, "Password:" %>
+      <%= f.password_field :password, class: "form-control" %>
+      <% @user.errors.full_messages_for(:password).each do |message| %>
+        <div class="notice"><%= message %></div>
+      <% end %>
+    </div>
+    <div class="mb-20">
+      <%= f.label :super_user_flag, "Super User Flag:" %>
+       <%= select_tag :super_user_flag, options_for_select([["Choose UserType", ""], ["super user", 1], ["normal user", 0]]), {} %>
+    </div>
+    <div class="mb-20">
+      <%= f.label :phone, "Phone:" %> &nbsp;  &nbsp;   &nbsp;  
+      <%= f.text_field :phone, class: "form-control" %>
+      <% @user.errors.full_messages_for(:phone).each do |message| %>
+        <div class="notice"><%= message %></div>
+      <% end %>
+    </div>
+    <div class="mb-20">
+      <%= f.label :address, "Address:" %> &nbsp; 
+      <%= f.text_field :address, class: "form-control" %>
+      <% @user.errors.full_messages_for(:address).each do |message| %>
+        <div class="notice"><%= message %></div>
+      <% end %>
+    </div>
+    <div class="mb-20">
+      <%= f.label :birthday, "Birthday:" %>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+      <%= f.date_field :birthday, class: "form-control" %>
+      <% @user.errors.full_messages_for(:birthday).each do |message| %>
+        <div class="notice"><%= message %></div>
+      <% end %>
+    </div>
+    <div class="submit">
+      <%= f.submit "Update", class: "edit" %>
+    </div>
+  <% end %>
+</div>
