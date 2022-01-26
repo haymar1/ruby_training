@@ -1,0 +1,41 @@
+<div class="header">
+  <%= link_to "User Lists", users_path,  class: "link" %>
+  <%= link_to "Post Lists", posts_path,  class: "link"  %>
+  <%= link_to "Create User", new_user_path,  class: "link" %>
+  <%= link_to "Logout", logout_path, class: "link" %>
+</div>
+<% if @users.length > 0 %>
+  <h3>USER LIST</h3>
+  <br>
+  <table border="2">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Super User Flag</th>
+        <th>Phone</th>
+        <th>Address</th>
+        <th>Birthday</th>
+        <th>Operation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @users.each do |user| %>
+        <tr>
+          <td><%= user.name %></td>
+          <td><%= user.email %></td>
+          <td><%= user.super_user_flag %></td>
+          <td><%= user.phone %></td>
+          <td><%= user.address %></td>
+          <td><%= user.birthday %></td>
+          <td>
+            <%= link_to "Edit", edit_user_path(id: user.id)%>
+            <%= link_to "Delete", user_path(id: user.id), method: :delete, data: { confirm: "Are you sure?" } %>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+<% else %>
+  <p>There is no users</p>
+<% end %>

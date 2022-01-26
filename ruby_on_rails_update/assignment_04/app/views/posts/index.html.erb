@@ -1,0 +1,35 @@
+<div class="header">
+  <%= link_to "User Lists", users_path, class: "link" %>
+  <%= link_to "Post Lists", posts_path, class: "link"  %>
+  <%= link_to "Create Post", new_post_path, class: "link"  %>
+  <%= link_to "Send Post", send_post_path, class: "link"  %>
+</div>
+<% if @posts.length > 0 %>
+  <h3>Post LIST</h3>
+  <table border="2">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>User Id</th>
+        <th>Operation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @posts.each do |post| %>
+        <tr>
+          <td><%= post.title %></td>
+          <td><%= post.description %></td>
+          <td><%= post.user_id %></td>
+          <td>
+            <%= link_to "Edit", edit_post_path(id: post.id)%>
+            <%= link_to "Delete", post_path(id: post.id), method: :delete, data: { confirm: "Are you sure?" } %>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+  <% else%>
+  <p>There is no posts</p>
+<% end %>
+

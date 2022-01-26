@@ -1,0 +1,14 @@
+<div class="header">
+  <%= link_to "Back", login_path, class: "link" %>
+</div>
+<div class="container">
+  <h2>Forget your Password?</h2>
+  <%= form_with url: password_reset_path do |form| %>
+    <div class="mb-20">
+      <%= form.text_field :email, placeholder: "Email:user@gmail.com", class: "text-field", required: true %>
+    </div>
+    <div class="submit">
+      <%= form.submit "Reset Password", class: "edit" %>
+    </div>
+  <% end %>
+</div>
